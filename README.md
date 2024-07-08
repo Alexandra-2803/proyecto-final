@@ -1,7 +1,7 @@
 # Datos Metorológicos de Perú
 
 Trabajo final del curso Lenguaje de Programación 2, donde usando herramientas webscraping y api conseguimos 
-obtener información relevante acerca y actualizaciones de ciertos parámetros del clima de nuestro país.
+obtener información relevante y actualizaciones de ciertos parámetros del clima de nuestro país.
 
 ## Integrantes:
 
