@@ -1,11 +1,11 @@
-Temperatura,Presión,Humedad %,Velocidad del Viento,Descripción del Clima,Índice UV,Sensación Térmica,Visibilidad
-17.38,1012,81,3.09,nubes,0 of 11,16.1°C,6 mi
-16.04,1016,51,2.06,cielo claro,0 of 11,15.6°C,6 mi
-16.98,1011,94,3.6,bruma,0 of 11,17.2°C,3 mi
-18.97,1011,77,8.23,algo de nubes,0 of 11,18.9°C,6 mi
-25.31,1010,54,7.8,cielo claro,0 of 11,23.9°C,6 mi
-29.02,1010,74,1.03,algo de nubes,0 of 11,31.7°C,6 mi
-15.13,1014,31,4.12,cielo claro,0 of 11,23.9°C,6 mi
-18.48,1011,84,4.56,nubes dispersas,0 of 11,16.7°C,9 mi
-14.38,1013,56,2.74,algo de nubes,0 of 11,13.3°C,10 mi
-12.11,1014,82,2.06,algo de nubes,0 of 11,12.8°C,6 mi
+Ciudad,Temperatura,Presión,Humedad %,Velocidad del Viento,Descripción del Clima,Índice UV,Sensación Térmica,Visibilidad
+Lima,16.74,1014,84,4.63,niebla,0 of 11,15.0°C,3 mi
+Arequipa,15.04,1018,24,5.14,cielo claro,0 of 11,12.8°C,6 mi
+Trujillo,16.98,1013,88,3.6,niebla,0 of 11,16.7°C,3 mi
+Chiclayo,17.97,1012,82,6.69,cielo claro,0 of 11,17.2°C,6 mi
+Piura,20.46,1012,71,7.16,algo de nubes,0 of 11,20.0°C,6 mi
+Iquitos,25.02,1013,88,0.0,cielo claro,0 of 11,25.0°C,6 mi
+Cusco,11.13,1019,58,2.06,cielo claro,0 of 11,20.0°C,6 mi
+Chimbote,18.14,1013,84,4.01,muy nuboso,0 of 11,16.7°C,8 mi
+Huancayo,10.41,1019,77,1.54,algo de nubes,0 of 11,10.0°C,9 mi
+Tacna,12.11,1017,76,1.03,nubes,0 of 11,12.2°C,6 mi
