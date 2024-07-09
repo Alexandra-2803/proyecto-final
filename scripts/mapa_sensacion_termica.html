@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f1452f6c085446d0edfb6d573c9649e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f1452f6c085446d0edfb6d573c9649e0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f1452f6c085446d0edfb6d573c9649e0 = L.map(
+                "map_f1452f6c085446d0edfb6d573c9649e0",
+                {
+                    center: [-14.23, -51.92],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e51840b0b4776f4916d5b478c77b33e8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e51840b0b4776f4916d5b478c77b33e8.addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+            var marker_f684b206bf0dd07476891b47fac2e78d = L.marker(
+                [-12.0621065, -77.0365256],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_8d8be3c92adde376753fa2079ab690dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2f2e01dc11d1fdcc22855e7a23e13ca = $(`<div id="html_b2f2e01dc11d1fdcc22855e7a23e13ca" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 16.1 °C</div>`)[0];
+                popup_8d8be3c92adde376753fa2079ab690dd.setContent(html_b2f2e01dc11d1fdcc22855e7a23e13ca);
+            
+        
+
+        marker_f684b206bf0dd07476891b47fac2e78d.bindPopup(popup_8d8be3c92adde376753fa2079ab690dd)
+        ;
+
+        
+    
+    
+            var marker_cb7d5543591732891455ac55a7c452b4 = L.marker(
+                [-16.3988667, -71.5369607],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_9f1aabd63948b35840c4a466a7c2de2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2eb31a575f53fdf007f17319073927b = $(`<div id="html_e2eb31a575f53fdf007f17319073927b" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 14.4 °C</div>`)[0];
+                popup_9f1aabd63948b35840c4a466a7c2de2b.setContent(html_e2eb31a575f53fdf007f17319073927b);
+            
+        
+
+        marker_cb7d5543591732891455ac55a7c452b4.bindPopup(popup_9f1aabd63948b35840c4a466a7c2de2b)
+        ;
+
+        
+    
+    
+            var marker_da2a9d5f725dcb90f81e18fda0e2c25a = L.marker(
+                [39.4605657, -5.8816626],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_74bcf75aa3a2f6c86960fbcbf6038716 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8cee5f852c533e5692c4e48d1673f6f = $(`<div id="html_a8cee5f852c533e5692c4e48d1673f6f" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 17.2 °C</div>`)[0];
+                popup_74bcf75aa3a2f6c86960fbcbf6038716.setContent(html_a8cee5f852c533e5692c4e48d1673f6f);
+            
+        
+
+        marker_da2a9d5f725dcb90f81e18fda0e2c25a.bindPopup(popup_74bcf75aa3a2f6c86960fbcbf6038716)
+        ;
+
+        
+    
+    
+            var marker_b6debe989bc47581b3f0a7aa3cc2dde8 = L.marker(
+                [-6.7716146, -79.8387175],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_16e8deec44512cf3c230a79893501558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_747c593cee4d1317e27d4fde65e8e1cc = $(`<div id="html_747c593cee4d1317e27d4fde65e8e1cc" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 17.2 °C</div>`)[0];
+                popup_16e8deec44512cf3c230a79893501558.setContent(html_747c593cee4d1317e27d4fde65e8e1cc);
+            
+        
+
+        marker_b6debe989bc47581b3f0a7aa3cc2dde8.bindPopup(popup_16e8deec44512cf3c230a79893501558)
+        ;
+
+        
+    
+    
+            var marker_fb19755026ffc7cf9a0ba6e09086f12a = L.marker(
+                [-5.0, -80.333333],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_475350a10bc4d1949c8712a6fc0a38e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92e662fbb75b3371afaec451893990a9 = $(`<div id="html_92e662fbb75b3371afaec451893990a9" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 22.2 °C</div>`)[0];
+                popup_475350a10bc4d1949c8712a6fc0a38e5.setContent(html_92e662fbb75b3371afaec451893990a9);
+            
+        
+
+        marker_fb19755026ffc7cf9a0ba6e09086f12a.bindPopup(popup_475350a10bc4d1949c8712a6fc0a38e5)
+        ;
+
+        
+    
+    
+            var marker_aae87420eee4fb20302fb4fc44e8a12b = L.marker(
+                [-3.749365, -73.2444145],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_92f7d6221bc95f8c070c458b45041cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b08d76794e1c74ce81c4d6a1e3cb3f17 = $(`<div id="html_b08d76794e1c74ce81c4d6a1e3cb3f17" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 28.9 °C</div>`)[0];
+                popup_92f7d6221bc95f8c070c458b45041cd9.setContent(html_b08d76794e1c74ce81c4d6a1e3cb3f17);
+            
+        
+
+        marker_aae87420eee4fb20302fb4fc44e8a12b.bindPopup(popup_92f7d6221bc95f8c070c458b45041cd9)
+        ;
+
+        
+    
+    
+            var marker_991d98950559513ff1d3a476cf4073c3 = L.marker(
+                [-13.5170887, -71.9785356],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_38ab0421026294ee21bf609bc63af3ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33966eed9c459d8f2dc19a84efba2b54 = $(`<div id="html_33966eed9c459d8f2dc19a84efba2b54" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 22.2 °C</div>`)[0];
+                popup_38ab0421026294ee21bf609bc63af3ed.setContent(html_33966eed9c459d8f2dc19a84efba2b54);
+            
+        
+
+        marker_991d98950559513ff1d3a476cf4073c3.bindPopup(popup_38ab0421026294ee21bf609bc63af3ed)
+        ;
+
+        
+    
+    
+            var marker_23dd003d87b9f3e105a227bdfc1ebed5 = L.marker(
+                [-9.0744966, -78.593609],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_e928dde37e40dd7d7956d4868a258ea7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7d24bf0b61a2babdb8d732e05366a96 = $(`<div id="html_d7d24bf0b61a2babdb8d732e05366a96" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 16.1 °C</div>`)[0];
+                popup_e928dde37e40dd7d7956d4868a258ea7.setContent(html_d7d24bf0b61a2babdb8d732e05366a96);
+            
+        
+
+        marker_23dd003d87b9f3e105a227bdfc1ebed5.bindPopup(popup_e928dde37e40dd7d7956d4868a258ea7)
+        ;
+
+        
+    
+    
+            var marker_5b26c75fa782c3d4b04d279654d33e1e = L.marker(
+                [-12.068098, -75.2100953],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_808427d7231476f467d9c648d35eca58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c0c71da731f7e53780f53d57883bd65 = $(`<div id="html_9c0c71da731f7e53780f53d57883bd65" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 11.7 °C</div>`)[0];
+                popup_808427d7231476f467d9c648d35eca58.setContent(html_9c0c71da731f7e53780f53d57883bd65);
+            
+        
+
+        marker_5b26c75fa782c3d4b04d279654d33e1e.bindPopup(popup_808427d7231476f467d9c648d35eca58)
+        ;
+
+        
+    
+    
+            var marker_3b119068ca383c221190168b715a3cd3 = L.marker(
+                [-18.01386, -70.2511032],
+                {}
+            ).addTo(map_f1452f6c085446d0edfb6d573c9649e0);
+        
+    
+        var popup_74c3fae636973ee04cda539ae540108e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f041d85e97fe008bd31048306169789c = $(`<div id="html_f041d85e97fe008bd31048306169789c" style="width: 100.0%; height: 100.0%;">Sensación Térmica: 12.2 °C</div>`)[0];
+                popup_74c3fae636973ee04cda539ae540108e.setContent(html_f041d85e97fe008bd31048306169789c);
+            
+        
+
+        marker_3b119068ca383c221190168b715a3cd3.bindPopup(popup_74c3fae636973ee04cda539ae540108e)
+        ;
+
+        
+    
+</script>
+</html>
